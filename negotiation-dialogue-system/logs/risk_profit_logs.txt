@@ -1,0 +1,2 @@
+Risk: 0.9, Profit: 1.0
+Risk: 0.7, Profit: 1.2

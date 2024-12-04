@@ -1,0 +1,20 @@
+2024-12-04 02:09:28,635 - INFO - user: この商品は500です。
+2024-12-04 02:09:29,208 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-04 02:09:29,568 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-04 02:09:30,169 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-04 02:09:30,171 - INFO - Emotion: neutral
+2024-12-04 02:09:30,171 - INFO - Personality: competitive
+2024-12-04 02:09:30,171 - INFO - Intent: propose
+2024-12-04 02:09:30,171 - INFO - Risk: 0.7, Profit: 1.2
+2024-12-04 02:09:31,172 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-04 02:09:31,172 - INFO - システム: 申し訳ありませんが、他の店舗で同じ商品を450で見つけました。500よりも安い価格で売っていただけませんか？
+2024-12-04 02:09:38,824 - INFO - user: accpet
+2024-12-04 02:09:39,329 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-04 02:09:40,301 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-04 02:09:41,171 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-04 02:09:41,173 - INFO - Emotion: neutral
+2024-12-04 02:09:41,173 - INFO - Personality: 提供されたテキストからは、発話者の性格を特定することはできません。そのため、性格をcooperativeまたはcompetitiveに分類することはできません。
+2024-12-04 02:09:41,173 - INFO - Intent: 申し訳ございません、あなたの入力には適切なカテゴリーが見つかりませんでした。もう少し具体的な情報を提供いただけますか？
+2024-12-04 02:09:41,173 - INFO - Risk: 0.5, Profit: 0.5
+2024-12-04 02:09:42,257 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-04 02:09:42,259 - INFO - システム: ありがとうございます。商品の価格について交渉させていただきます。実際には他店よりも安い価格で購入できると言いますが、実際には他店よりも高い価格で購入しました。そのため、この商品の価格を大幅に引き下げていただけると助かります。

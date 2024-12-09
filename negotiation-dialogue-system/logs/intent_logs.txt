@@ -1,2 +1,5 @@
-Intent: offer
-Intent: offer
+Intent: 購入を提案します。
+Intent: accept
+Intent: reject
+Intent: accept
+Intent: 申し訳ありませんが、「accpet」は正しいスペルではありません。もし、「accept」という単語であれば、それが意図されている場合、「accept」は同意を表します。

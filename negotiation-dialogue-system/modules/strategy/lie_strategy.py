@@ -6,7 +6,7 @@ class LieStrategy:
 
     def generate(self, history):
         # システムメッセージ
-        messages = [{"role": "system", "content": "あなたは買い手です。交渉においてリスクを減少させつつ、価格をできる限り安くすることを目指します。以下の対話履歴に基づいて、利益を得るために嘘を含めた発話を返答してください:"}]
+        messages = [{"role": "system", "content": "以下の対話履歴に対する発話では、価格や条件について事実でない情報を提示し、売り手の譲歩を引き出してください。ただし、矛盾や交渉全体を壊すリスクを避けてください。"}]
         
         for entry in history:
             messages.append({"role": entry['role'], "content": entry['content']})

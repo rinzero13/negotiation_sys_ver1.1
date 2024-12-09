@@ -4,9 +4,9 @@ class TruthStrategy:
     def __init__(self, api_key):
        self.client = OpenAI(api_key=api_key)
 
-    def generate(self, text, history):
+    def generate(self, history):
         # システムメッセージ
-        messages = [{"role": "system", "content": "あなたは買い手です。交渉においてリスクを減少させつつ、価格をできる限り安くすることを目指します。以下のの対話履歴に基づいて、リスクを避けるために嘘を含まない発話を返答してください:"}]
+        messages = [{"role": "system", "content": "以下の対話履歴に対する発話で、価格や条件について事実情報を提示し、売り手の譲歩を引き出してください。"}]
         
         for entry in history:
             messages.append({"role": entry['role'], "content": entry['content']})

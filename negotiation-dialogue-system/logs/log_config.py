@@ -41,3 +41,8 @@ def setup_logging():
     price_log = logging.getLogger('price_log')
     price_log.setLevel(logging.INFO)
     price_log.addHandler(logging.FileHandler("negotiation-dialogue-system/logs/price_logs.txt", mode='w'))
+    
+    # 対話段階ログ
+    phase_log = logging.getLogger('phase_log')
+    phase_log.setLevel(logging.INFO)
+    phase_log.addHandler(logging.FileHandler("negotiation-dialogue-system/logs/phase_logs.txt", mode='w'))

@@ -1,2 +1,5 @@
 Emotion: neutral
 Emotion: neutral
+Emotion: negative
+Emotion: neutral
+Emotion: neutral

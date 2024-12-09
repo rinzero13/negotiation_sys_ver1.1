@@ -1,2 +1,5 @@
-Personality: cooperative
 Personality: competitive
+Personality: competitive
+Personality: competitive
+Personality: cooperative
+Personality: いただいたテキストからは性格分析が難しいため、適切な判断はできません。そのため、こちらからは分析を行うことはできません。
